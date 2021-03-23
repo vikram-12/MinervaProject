@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".AboutActivity">
+    <TextView
+        android:id="@+id/minerva"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Minerva"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/recycler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/aboutView"
+        android:textSize="20dp"
+        android:textColor="#C0C0C0"
+        android:inputType="textCapSentences|textMultiLine|textNoSuggestions"
+        app:fontFamily="@font/average"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="LEARN, IMPROVE &amp; GET YOUR SUCCESS "
+        app:fontFamily="@font/average"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/aboutView2"
+        android:textSize="20dp"
+        android:textColor="#C0C0C0"
+        android:inputType="textCapSentences|textMultiLine|textNoSuggestions" />
+
+</LinearLayout>

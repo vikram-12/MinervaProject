@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
+    android:background="@drawable/logtheme"
+    tools:context="com.example.minervaproject.RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Minerva"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:fontFamily="@font/aclonica" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:fontFamily="@font/allan"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:scrollbarSize="10dp"
+        android:singleLine="false"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#C0C0C0"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Email"
+        android:scrollbarSize="10dp"
+        android:singleLine="false"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#C0C0C0"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:scrollbarSize="10dp"
+        android:singleLine="false"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#C0C0C0"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_marginTop="15dp"
+        android:textColor="#9B30DC"
+        android:textColorHint="#9835D5"
+        android:textColorLink="#FFFFFF"
+        android:textSize="24sp"
+        android:id="@+id/register_btn"/>
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Already a member?login."
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        app:fontFamily="@font/amiri"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_btn"
+        app:layout_constraintVertical_bias="0.0"
+        android:focusable="true" />
+</LinearLayout>
