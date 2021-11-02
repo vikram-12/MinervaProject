@@ -15,22 +15,22 @@ List View: This is a key component under the view group which helps in displayin
  ### Description of Features and the Approach
 
 #### User Login/Registration:
-If the user wants to use the Minerva, one must download the application from the apk provided, install and register it by providing login information. As shown in Figure4.2 and figure 4.3 , the login information includes username and password. For the new user, the user must sign up by providing Full Name, Email Id and Password. Once, he registers, the registered information is stored in the server and can be validated, checking for the valid credentials for the next time he logins with the application.
+If the user wants to use the Minerva, one must download the application from the apk provided, install and register it by providing login information. The login information includes username and password. For the new user, the user must sign up by providing Full Name, Email Id and Password. Once, he registers, the registered information is stored in the server and can be validated, checking for the valid credentials for the next time he logins with the application.
 
 #### Home page:
 This is the first page that a user sees after he is logged in.  
                              
 #### Newsfeed:
-If the user wants to see various posts and experiences shared by other users he can find it here. As it is seen in the below figure,the user can like the Post by clicking on the heart icon given just below the post.initially the heart icon has no fill in colour, once the user clicks on the icon it turns red which indicates that the user has liked it. If the user taps on it again it becomes colourless thus indicating that the user has unliked it.
+If the user wants to see various posts and experiences shared by other users he can find it here. The user can like the Post by clicking on the heart icon given just below the post.initially the heart icon has no fill in colour, once the user clicks on the icon it turns red which indicates that the user has liked it. If the user taps on it again it becomes colourless thus indicating that the user has unliked it.
                      
 #### Placement and Exam related docs:
 If the user wants to download the already uploaded documents which are related to placement and exams he can simply click on the download option available on the page.
 
 #### Share Your Experience:
-If the user wants to share his/her experience of the placement procedures, wishes to review any company he/she has already worked in or working for or any other related info that he thinks is relevant to the platform can simply type in the section given  with his/ her name and click on the post button as shown in the below diagram.    
+If the user wants to share his/her experience of the placement procedures, wishes to review any company he/she has already worked in or working for or any other related info that he thinks is relevant to the platform can simply type in the section given  with his/ her name and click on the post button.    
                                                                     
  #### More:
-This tab offers the user with other important information as shown in the figure below
+This tab offers the user with other important information :
 1  About: If the user clicks on this option he can read about the motivation behind  this app.
 2 Help: If the user is facing any kind of problem and wants to contact the admin to get it resolved he can use this option to directly mail his query to the admin using his registered e-mail id. Once the user has sent the mail regarding his complaint he will receive an acknowledgement mail.
 3 Logout: If the user wants to logout form the app he can simply click on the logout button.
